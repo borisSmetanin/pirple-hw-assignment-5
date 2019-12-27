@@ -4,4 +4,8 @@
 
  const sample_lib = {};
 
+ sample_lib.test = () => {
+     return 1;
+ }
+
  module.exports = sample_lib;
