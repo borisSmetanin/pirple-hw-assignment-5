@@ -66,22 +66,6 @@ test_web_app.tests.push([
 ]);
 
 test_web_app.tests.push([
-    'Web App - Simple GET request status is 200',
-     () => {
-        return new Promise((resolve, reject) => {
-            make_http_request('GET', '/', (res) => {
-                try {
-                    assert.equal(res.statusCode, 200);
-                    resolve(true);
-                } catch (e) {
-                    reject(e);
-                }
-            });
-        });
-    }
-]);
-
-test_web_app.tests.push([
     'Web App - Simple POST request is status is 200',
      () => {
         return new Promise((resolve, reject) => {
