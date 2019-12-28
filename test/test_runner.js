@@ -40,8 +40,8 @@ const generate_small_title = (title) => {
  * 
  * Example:
  * unit_tests = {
- *      // testing `lib` library
- *      lib: [
+ *      // testing `foo` library
+ *      foo: [
  *          [
  *              'test should return 1',
  *              (callback) => {
@@ -58,8 +58,8 @@ const generate_small_title = (title) => {
  *          ]
  *      ],
  * 
- *      //... other unit tests
- *      other_lib: [
+ *      // testing bar library
+ *      bar: [
  *          [ ...  ],
  *          [ .... ]
  *      ]
