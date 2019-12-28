@@ -260,7 +260,7 @@ test_runner.generate_report = () => {
         console.log(`Total errors:  ${errors.length}`);
         console.log(`Total success: ${success.length}`);
     
-        //---- Final result - Test will fail if it has evan 1 error
+        //---- Final result - Test will fail if it has at least 1 error
         const has_passed = ! errors.length;
         console.log('');
         const pass_or_failed_string = has_passed ? 'passed' : 'failed'
